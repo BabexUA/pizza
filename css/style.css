@@ -40,6 +40,8 @@ section {
     color: white;
     font-size: 2rem;
     padding: 10px;
+    position: relative;
+    top:100px;
 }
 
 .white-block {
@@ -47,6 +49,9 @@ section {
     max-width: 600px;
     background-color: white;
     padding: 50px 0;
+    position: relative;
+    top: 100px;
+    z-index:1
 }
 
 .content {
@@ -85,4 +90,6 @@ section {
 .footer {
     background-color: black;
     height: 200px;
+    position: relative;
+    z-index: 0;
 }

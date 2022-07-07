@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3b3737;
+
+}
+
+header {
+    background-color: red;
+    height: 50px;
+}
+
+section {
+    margin: auto;
+    max-width: 1316px;
+    background: url("../images/pizza.jpeg") no-repeat;
+    background-color: #562222;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container {
+    background-color: black;
+    height: 88px;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.block {
+    margin: auto;
+    max-width: 600px;
+}
+
+.title {
+    background-color: #562222;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.white-block {
+    margin: auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 50px 0;
+}
+
+.content {
+    margin-left: 50px;
+
+}
+
+.frame {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.block-text {
+    display: flex;
+    align-items: center;
+    color: #ad5050;
+    font-size: 1rem;
+}
+
+.time {
+    margin-left: 20px;
+    color: gray;
+    padding-top: 4px;
+
+}
+
+.dots {
+    font-size: 1rem;
+    color: #ad5050;
+}
+
+.text {
+    max-width: 450px;
+}
+
+.footer {
+    background-color: black;
+    height: 200px;
+}
